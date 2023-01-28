@@ -23,6 +23,9 @@ import torchvision.transforms as transforms
 # 导入sympy
 from sympy import * 
 
+# 导入延时模块
+import time
+
 # 使用display打印
 from IPython.display import display, Latex
 
@@ -32,3 +35,18 @@ def getFrame():
     ret,frame = cap.read()
     cap.release()
     return frame
+
+# 添加一个打印opencv的函数
+def displayImage(Image):
+    plt.imshow(Image)
+    plt.axis('off') # 关掉坐标轴为 off
+    plt.title('Catch Image') # 图像题目
+    plt.show()
+    
+def displayFrame(frame):
+    # 转换RGB顺序
+    frame=cv.cvtColor (frame, cv.COLOR_BGR2RGB)
+    plt.imshow(frame)
+    plt.axis('off') # 关掉坐标轴为 off
+    plt.title('Catch Image') # 图像题目
+    plt.show()
