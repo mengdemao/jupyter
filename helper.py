@@ -9,6 +9,9 @@ from rich import print
 import matplotlib.pyplot as plt
 import matplotlib
 
+# 设置中文字体,解决中文乱码
+plt.rcParams["font.family"] = "Source Han Serif CN"
+
 # 导入numpy
 import numpy as np
 
