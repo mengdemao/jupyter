@@ -6,6 +6,10 @@
 1. [python笔记](python.ipynb)
 2. [opencv笔记](opencv.ipynb)
 3. [pytorch笔记](pytorch.ipynb)
+4. [numpy笔记](numpy.ipynb)
+5. [pandas笔记](pandas.ipynb)
+6. [scipy笔记](scipy.ipynb)
+7. [sympy笔记](sympy.ipynb)
 
 ## jupyter记录
 
