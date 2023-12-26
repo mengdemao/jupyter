@@ -2,3 +2,4 @@
 ui-profiler-results
 .virtual_documents
 data/
+*.jupyterlab-workspace
