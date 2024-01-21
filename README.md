@@ -1,4 +1,4 @@
-# jupter notebook笔记
+# jupyter notebook笔记
 
 ## 文件列表
 
