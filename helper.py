@@ -1,12 +1,27 @@
 #!/usr/bin/env python3
 # -*- coding:utf-8 -*-
 
+# pylint: disable=E0401
+# pylint: disable=W0611
+# pylint: disable=W0311
+# pylint: disable=C0304
+# pylint: disable=C0114
+# pylint: disable=C0413
+# pylint: disable=W0401
+# pylint: disable=C0116
+# pylint: disable=E1101
+# pylint: disable=C0103
+# pylint: disable=C0116
+# pylint: disable=R1711
+# pylint: disable=W0612
+# pylint: disable=W0614
+
+# 导入延时模块
+import time
+
 # 设置显示图片
 import matplotlib.pyplot as plt
 import matplotlib
-
-# 设置中文字体,解决中文乱码
-plt.rcParams["font.family"] = "Source Han Serif CN"
 
 # 导入numpy
 import numpy as np
@@ -17,8 +32,8 @@ import cv2 as cv
 # 导入sympy
 from sympy import *
 
-# 导入延时模块
-import time
+# 设置中文字体,解决中文乱码
+plt.rcParams["font.family"] = "Source Han Serif CN"
 
 # 使用display打印
 from IPython.display import display, Latex
