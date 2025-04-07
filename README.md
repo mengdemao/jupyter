@@ -11,6 +11,13 @@
 6. [scipy笔记](scipy.ipynb)
 7. [sympy笔记](sympy.ipynb)
 
+## 生成requirements.txt
+
+```shell
+pip freeze > requirements.txt
+```
+
+
 ## jupyter记录
 
 ### 魔法命令
@@ -25,3 +32,5 @@
 + 创建
   + 新增jupyter笔记文件
   + 拆分helper.py文件
+  + 添加start.sh脚本
+  + 添加install.sh脚本
