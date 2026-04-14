@@ -19,3 +19,6 @@ jobs:
     - name: Analysing the code with pylint
       run: |
         pylint helper.py
+    - name: Push github pasges
+      run: |
+        mkdocs gh-deploy

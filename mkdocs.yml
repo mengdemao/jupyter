@@ -1,0 +1,54 @@
+site_name: Jupyter 学习笔记
+site_url: https://mengdemao.github.io/jupyter/
+site_description: Jupyter笔记与数据分析教程
+site_author: mengdemao
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: 切换至深色模式
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: 切换至浅色模式
+  font:
+    text: Noto Sans SC
+    code: JetBrains Mono
+  features:
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - toc.follow
+    - content.code.copy
+    - content.tooltips
+
+plugins:
+  - mkdocs-jupyter:
+      execute: false
+      include_source: true
+      show_input: true
+      ignore_h1_titles: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - toc:
+      permalink: true
+
+nav:
+  - 首页: README.md
+  - python笔记: python.ipynb
+  - opencv笔记: opencv.ipynb
+  - pytorch笔记: (pytorch.ipynb
+  - numpy笔记: numpy.ipynb
+  - pandas笔记: pandas.ipynb
+  - scipy笔记: scipy.ipynb
+  - sympy笔记: sympy.ipynb
