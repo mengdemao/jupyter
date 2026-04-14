@@ -2,6 +2,7 @@ site_name: Jupyter 学习笔记
 site_url: https://mengdemao.github.io/jupyter/
 site_description: Jupyter笔记与数据分析教程
 site_author: mengdemao
+docs_dir: .
 
 theme:
   name: material
